@@ -35,7 +35,7 @@ $(function() {
 			
 			function addProjects(projects) {
 				projects.forEach(function (project) {
-					$('.masonry').append('<a href="'+project.img+'"><img src="'+project.img+'" alt="'+project.title+'" /><h3>'+project.title+'</h3></a>')
+					$('.masonry').prepend('<a href="'+project.img+'"><img src="'+project.img+'" alt="'+project.title+'" /><h3>'+project.title+'</h3></a>')
 				})
 				
 				$('.masonry').poptrox({

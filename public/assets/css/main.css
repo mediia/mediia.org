@@ -1875,7 +1875,7 @@
 		.icon > .label {
 			display: none;
 		}
-
+/*
 		.icon.style2 {
 			-moz-transition: all 0.2s ease;
 			-webkit-transition: all 0.2s ease;
@@ -1907,6 +1907,7 @@
 				}
 
 			}
+*/
 
 /* Image */
 
@@ -2380,7 +2381,7 @@
 	    -moz-column-gap: 1.5em;
 	    -webkit-column-gap: 1.5em;
 	    column-gap: 1.5em;
-		margin: 0 0 2em -2em;
+		margin: 0;
 	}
 
 		.masonry a {
@@ -2452,7 +2453,7 @@
 		@media screen and (max-width: 1280px) {
 
 			.masonry {
-				margin: 0 0 2em -1.5em;
+				margin: 0;
 			}
 
 				.masonry a {
@@ -2594,7 +2595,7 @@
 
 	#header {
 		text-align: center;
-		padding: 6em 0 4em 0;
+		padding: 2em 0 1em 0;
 	}
 
 		#header h1 {
@@ -2602,7 +2603,7 @@
 		}
 
 		#header .avatar {
-			border-radius: 100%;
+			border-radius: 6%;
 			display: inline-block;
 			margin: 0 0 2em 0;
 			padding: 0.5em;
@@ -2611,15 +2612,16 @@
 		}
 
 			#header .avatar img {
-				border-radius: 100%;
+				border-radius: 4%;
 				display: block;
-				width: 10em;
+				width: 20em;
+				max-width: 100%;
 			}
 
 		@media screen and (max-width: 1280px) {
 
 			#header {
-				padding: 4em 0 2em 0;
+				padding: 2em 0 0 0;
 			}
 
 		}
